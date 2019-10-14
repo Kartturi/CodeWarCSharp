@@ -7,7 +7,7 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-          string result = NthSeries.seriesSum(5);
+          string result = CamelCaseString.ToCamelCase("the-stealth-warrior");
           System.Console.WriteLine(result);
             Console.ReadLine();
         }

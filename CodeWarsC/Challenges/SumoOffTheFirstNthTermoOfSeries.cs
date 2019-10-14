@@ -16,7 +16,13 @@ Examples:
 SeriesSum(1) => 1 = "1.00"
 SeriesSum(2) => 1 + 1/4 = "1.25"
 SeriesSum(5) => 1 + 1/4 + 1/7 + 1/10 + 1/13 = "1.57"
+
+put following code to main method
+string result = NthSeries.seriesSum(5);
+System.Console.WriteLine(result);
+
      */
+//first dirty implementation, o(N)
 public class NthSeries {
 	
 	public static string seriesSum (int n) {
