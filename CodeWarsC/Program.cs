@@ -7,8 +7,8 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-           string result = ReplaceAlphabetPosition.AlphabetPosition("The sunset sets at twelve o' clock.");
-            Console.WriteLine(result);
+          string result = NthSeries.seriesSum(5);
+          System.Console.WriteLine(result);
             Console.ReadLine();
         }
     }
