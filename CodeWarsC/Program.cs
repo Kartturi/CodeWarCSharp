@@ -7,7 +7,7 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-          int result = SquareEveryDigit.SquareDigits(9119);
+          string result = TwoToOne.Longest("aaabbbbbcccc", "aabbccee");
           System.Console.WriteLine(result);
             Console.ReadLine();
         }
