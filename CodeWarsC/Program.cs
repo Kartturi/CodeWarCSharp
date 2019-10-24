@@ -7,7 +7,7 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-          string result = CamelCaseString.ToCamelCase("the-stealth-warrior");
+          int result = SquareEveryDigit.SquareDigits(9119);
           System.Console.WriteLine(result);
             Console.ReadLine();
         }
