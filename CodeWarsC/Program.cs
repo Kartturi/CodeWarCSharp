@@ -7,8 +7,8 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-          string result = TwoToOne.Longest("aaabbbbbcccc", "aabbccee");
-          System.Console.WriteLine(result);
+            string result = GetTheMiddleOfCharacter.getMiddle2("aaccbb");
+            System.Console.WriteLine(result);
             Console.ReadLine();
         }
     }

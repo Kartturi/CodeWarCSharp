@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
 
 namespace CodeWarsC.Challenges
 {
@@ -23,33 +24,24 @@ namespace CodeWarsC.Challenges
         public static string Longest (string s1, string s2) 
         {
         IDictionary<char, int> charsA = new Dictionary<char, int>(); 
-        IDictionary<char, int> charsB = new Dictionary<char, int>(); 
         StringBuilder resulA = new StringBuilder("");
-        StringBuilder resulB = new StringBuilder("");
 
 
-        foreach(char s in s1) {
+        foreach(char s in s1 + s2) {
             if(!charsA.ContainsKey(s)) {
                 charsA.Add(s,1);
                 resulA.Append(s.ToString());
             } 
         }
-        foreach(char s in s2) {
-            if(!charsB.ContainsKey(s)) {
-                charsB.Add(s,1);
-                resulB.Append(s.ToString());
-            } 
-        }
-        ;
         char[] a = resulA.ToString().ToCharArray();
-        char[] b = resulB.ToString().ToCharArray();
-
         Array.Sort(a);
-        Array.Sort(b);
+        return new string(a);
 
-        char[] resultArr = a.Length > b.Length ? a : b;
-        return new string(resultArr);
+        }
 
+        //second implementation
+        public static string Longest2(string s1, string s2) {
+            return new string((s1+s2).Distinct().OrderBy(x => x).ToArray());
         }
     }
 }
