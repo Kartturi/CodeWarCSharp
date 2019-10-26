@@ -17,6 +17,8 @@ namespace CodeWarsC.Challenges
     a = "abcdefghijklmnopqrstuvwxyz"
     longest(a, a) -> "abcdefghijklmnopqrstuvwxyz"
     
+    string result = TwoToOne.Longest("xyaabbbccccdefww", "xxxxyyyyabklmopq");
+    System.Console.WriteLine(result);
      */
     class TwoToOne 
     {

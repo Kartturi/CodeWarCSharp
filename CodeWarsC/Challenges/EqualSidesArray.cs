@@ -2,7 +2,7 @@
 
 using System;
 
-namespace codeWarC.Challenges
+namespace CodeWarsC.Challenges
 {
 
     /*  Challenge made by Shivo

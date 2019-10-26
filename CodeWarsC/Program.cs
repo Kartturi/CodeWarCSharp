@@ -7,7 +7,7 @@ namespace CodeWarsC
         static void Main(string[] args)
         {
 
-            string result = GetTheMiddleOfCharacter.getMiddle2("aaccbb");
+            int result =  SumMul35.findSum2(10);
             System.Console.WriteLine(result);
             Console.ReadLine();
         }
