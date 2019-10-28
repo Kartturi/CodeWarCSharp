@@ -11,13 +11,12 @@ namespace CodeWarsC.Challenges
     string like this aba then the result should be { 'a': 2, 'b': 1 }
     What if the string is empty ? Then the result should be empty object literal { }
     For C#: Use a Dictionary<char, int> for this kata!
-    
+    git testline remowe it after
     Dictionary<char,int> result = CountCharacters
         .Count1("aba");
         foreach(KeyValuePair<char,int> d in result)
         {
             Console.WriteLine(d);
-                
         }
     */
     class CountCharacters
