@@ -7,14 +7,8 @@ namespace CodeWarsC.Challenges
     {
         static void Main(string[] args)
         {
-
-            Dictionary<char,int> result = CountCharacters
-            .Count1("aba");
-            foreach(KeyValuePair<char,int> d in result)
-            {
-                Console.WriteLine(d);
-                
-            }
+            bool result = ValidParentheses.Parentheses1("(())");
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
