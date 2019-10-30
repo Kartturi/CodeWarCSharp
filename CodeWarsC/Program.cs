@@ -7,7 +7,7 @@ namespace CodeWarsC.Challenges
     {
         static void Main(string[] args)
         {
-            bool result = ValidParentheses.Parentheses1("(())");
+            string result = GoodVsEvil.Battle("1 1 1 1 1 1", "1 1 1 1 1 1 1");
             Console.WriteLine(result);
             Console.ReadLine();
         }
