@@ -7,8 +7,7 @@ namespace CodeWarsC.Challenges
     {
         static void Main(string[] args)
         {
-            string result = GoodVsEvil.Battle("1 1 1 1 1 1", "1 1 1 1 1 1 1");
-            Console.WriteLine(result);
+            string result = Passphrases.playPass("I love Chicken", 10);
             Console.ReadLine();
         }
     }
